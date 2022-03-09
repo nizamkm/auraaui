@@ -1,0 +1,134 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.row{
+    position: relative;
+    display: flex;
+    /* margin-top: 5%; */
+    right: 0%;
+}
+.col{
+    position: relative;
+}
+#banner{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    position: relative;
+}
+.btn{
+    border-radius: 100px;
+}
+.circle{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid rgb(152, 152, 204);
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    top: 3%;
+    left: -5%;
+}
+.circle-r{
+    position: absolute;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
+    height: 380px;
+    width: 380px;
+    border-radius: 380px;
+}
+#sec{
+    background-color: rgb(226, 226, 226);
+    padding: 5%;
+}
+.card-img-top{
+    height: 25%;
+    width: 25%;
+    padding: 3%;
+}
+.card{
+    border-radius: 5%;
+}
+#third{
+    background-color: rgb(57, 57, 214);
+    height: 340px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+}
+@media screen and (max-width:1200px){
+    #third{
+        height: 705px;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+}
+.thirdc{
+    background-color: rgb(0, 0, 255);
+    height: 340px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    opacity: 45%;
+}
+@media screen and (max-width:1200px){
+    .thirdc{
+        height: 705px;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    #thirda{
+        height: 705px;
+    }
+}
+#d-board{
+    margin-left: 412%;
+    margin-top: -120%;
+    position: relative;
+}
+@media screen and (max-width:540px){
+    #d-board{
+        margin-left: 1%;
+        margin-top: 5%;
+        position: relative;
+        text-align: left;
+    }
+    #row-board{
+        height: 750px;
+    }
+}
+@media screen and (width:820px){
+    #d-board{
+        margin-left: 330%;
+    }
+}
+@media screen and (width:768px){
+    #d-board{
+        margin-left: 325%;
+    }
+}
+@media screen and (width:912px){
+    #d-board{
+        margin-left: 520px;
+    }
+}
+@media screen and (width:1024px){
+    #d-board{
+        margin-left: 620px;
+    }
+}
+@media screen and (width:280px){
+    #d-board{
+        height: 200px;
+        width: 200px;
+    }
+}
+.card-img-top-blog{
+    border-radius: 5px;
+}
